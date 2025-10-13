@@ -5,3 +5,17 @@ font-style: normal;
 font-size: 96px;
 line-height: 144%;
 }
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0,0, 0, 0/4),  rgba(0, 0, 0, 0.4 ))
+  url('../images/building.png');
+  background-repeat: none;
+  background-size: cover;
+  color: white;
+text-align: center;
+}
