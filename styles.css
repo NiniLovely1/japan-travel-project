@@ -12,9 +12,9 @@ line-height: 144%;
 }
 
 header {
-  background-image: linear-gradient(rgba(0,0, 0, 0/4),  rgba(0, 0, 0, 0.4 ))
-  url('../images/building.png');
-  background-repeat: none;
+  background-image: linear-gradient(rgba(0,0, 0, 0.4),  rgba(0, 0, 0, 0.4 )),
+  url("../images/background.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   color: white;
 text-align: center;
