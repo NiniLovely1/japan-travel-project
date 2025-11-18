@@ -24,7 +24,7 @@ h1 {
  }
 
  .img-responsive {
-  max-width: 100%;
+  width: 100%;
  }
  .grid {
  display: grid;
@@ -42,6 +42,10 @@ h1 {
   grid-template-columns: 1fr 2fr 2fr ;
  } 
 
+ .embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+ }
  .card {
   background-color: white;
   flex-direction: column;
@@ -53,6 +57,11 @@ h1 {
   width: 100%;
  }
  
+ .card-header.grid {
+grid-gap: 0;
+
+ }
+
  .card-body {
   padding: 30px 15px; 
   flex: 1;
@@ -117,6 +126,9 @@ line-height: 1.5;
 letter-spacing: 5px;
   margin: 0;
 }
+
+
+
  header a {
  font-weight: 700;
   font-size: 14px;
@@ -131,6 +143,8 @@ display:inline-block;
 text-decoration: none;
 background: white;
  }
+
+ 
 
 main {
   background-color: white;
@@ -243,4 +257,9 @@ section {
   padding: 30px;
 
 }
+ }
+ 
+ 
+ .embed {
+  aspect-ratio: 16 / 9;
  }
