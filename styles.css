@@ -1,6 +1,7 @@
 body {font-family: "Poppins", sans-serif;
   background: #272044;
 }
+ 
 
 h1 {
   
@@ -263,3 +264,7 @@ section {
  .embed {
   aspect-ratio: 16 / 9;
  }
+
+.instagram-embeds {
+  margin: 30px 0;
+}
